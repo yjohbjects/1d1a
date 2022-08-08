@@ -50,28 +50,23 @@
 
 3. Git Hub 활용
 
-- 커밋명 서식
-  - [ADD]: 데일리 문제풀이 업로드
-  - [EDITED]: 문제풀이 수정 후 업로드
-  - [DOCS]: README와 같은 문서 파일 업로드
-  - [DEL]: 불필요하거나 겹치는 파일 삭제
-  - [ARRANGE]: 폴더 정리
+  - 커밋명 서식
+    - [ADD]: 데일리 문제풀이 업로드
+    - [EDITED]: 문제풀이 수정 후 업로드
+    - [DOCS]: README와 같은 문서 파일 업로드
+    - [DEL]: 불필요하거나 겹치는 파일 삭제
+    - [ARRANGE]: 폴더 정리
 
-- 파일명 서식
+  - 파일명 서식
 
-  - SWEA
+    - SWEA
+      {username} > week{01} > **S**1234.py
 
-    {username} > week{01} > **S**1234.py
+    - 백준
+      {username} > week{01} > **B**1234.py
 
-
-  - 백준
-
-    {username} > week{01} > **B**1234.py
-
-
-  - 개인문제
-
-    {username} > week{01} > (S/B)1234**-p**.py
+    - 개인문제
+      {username} > week{01} > (S/B)1234**-p**.py
 
     <br>
 
