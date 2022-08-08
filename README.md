@@ -61,12 +61,13 @@
 
        - SWEA
          {username} > week{01} > **S**1234.py
-
        - 백준
          {username} > week{01} > **B**1234.py
-   - 개인문제
+       - 개인문제
          {username} > week{01} > (S/B)1234**-p**.py
-       
+     
+      
+   
    <br>
 
 ## 💥활동 기록
