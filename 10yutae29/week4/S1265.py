@@ -33,4 +33,4 @@ for t in range(1, T+1):
 # T = int(input())
 # for tc in range(T):
 #     N,P = map(int, input().split())
-#     print(f"#{tc+1} {(N//P)(P-N%P)*((N//P)+1)(N%P)}")
+#     print(f"#{tc+1} {(N//P)**(P-N%P)*((N//P)+1)**(N%P)}")
