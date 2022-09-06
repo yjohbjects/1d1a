@@ -67,13 +67,12 @@
    <br>
 
 ## 💥활동 기록
-| **Week**               | **학습 내용**              | 발표자 | **공통 문제**                                                |
-| ---------------------- | -------------------------- | ------ | ------------------------------------------------------------ |
-| Week 01 <br>(22.08.06) | List 1<br>List 2<br>String | -      | List 1: 구간합 (S4835)<br/>List 2: 이진탐색 (S4839)<br/>List 2: 특별한 정렬 (S4843)<br/>String: 문자열 비교 (S4864) |
-| Week 02 <br>(22.08.13) | Stack 1<br>Stack 2         | -      | 종이붙이기 (S4869)<br/>그래프 경로 (S4871)<br/>미로 (S4875)<br/>토너먼트 카드게임 (S4880) |
-| Week 03<br>(22.08.20)  | Queue                      | -      | 회전 (S5097)<br/>미로의 거리 (S5105)<br/>피자 굽기 (S5099)<br/>노드의 거리 (S5102) |
-| Week 04 <br>(22.08.27) | 버블 소트                  | `서형준` | 염라대왕의 이름 정렬 ([S7701](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWqU0zh6rssDFARG&))<br>커트라인 ([B25305](https://www.acmicpc.net/problem/25305))<br>국영수 ([B10825](https://www.acmicpc.net/problem/10825))<br>접미사 배열 ([B11656](https://www.acmicpc.net/problem/11656)) |
-| Week 05 <br>(22.09.03) | DFS                        | `오연진` | 바이러스 ([B2606](https://www.acmicpc.net/problem/2606))<br>촌수계산 ([B2644](https://www.acmicpc.net/problem/2644)) <br>유기농 배추 ([B1012](https://www.acmicpc.net/problem/1012))<br>단지번호붙이기 ([B2667](https://www.acmicpc.net/problem/2667)) |
-| Week 06<br>(22.09.10)  | BFS                        | `박정호` | DFS와 BFS ([B1260](https://www.acmicpc.net/problem/1260))<br/>맥주 마시면서 걸어가기 ([B9205](https://www.acmicpc.net/problem/9205))<br/>영역 구하기 ([B2583](https://www.acmicpc.net/problem/2583)) <br/>숨바꼭질 ([B6118](https://www.acmicpc.net/problem/6118)) |
-| Week 07<br>(22.09.17)  | Stack                      | `최유태` | 스택 ([B10828](https://www.acmicpc.net/problem/10828))<br/>도어맨 ([B5002](https://www.acmicpc.net/problem/5002))<br/>단어뒤집기2 ([B17413](https://www.acmicpc.net/problem/17413))<br/>오큰수([B17298](https://www.acmicpc.net/problem/17298)) |
-
+| **Week**               | **학습 내용**              | 발표자   | **공통 문제**                                                | 참석자                                                |
+| ---------------------- | -------------------------- | -------- | ------------------------------------------------------------ | ----------------------------------------------------- |
+| Week 01 <br>(22.08.06) | List 1<br>List 2<br>String | -        | List 1: 구간합 (S4835)<br/>List 2: 이진탐색 (S4839)<br/>List 2: 특별한 정렬 (S4843)<br/>String: 문자열 비교 (S4864) | `박정호` `서형준` `오연진` `이승호` `임성준` `최유태` |
+| Week 02 <br>(22.08.13) | Stack 1<br>Stack 2         | -        | 종이붙이기 (S4869)<br/>그래프 경로 (S4871)<br/>미로 (S4875)<br/>토너먼트 카드게임 (S4880) | `박정호` `서형준` `오연진` `이승호` `임성준`          |
+| Week 03<br>(22.08.20)  | Queue                      | -        | 회전 (S5097)<br/>미로의 거리 (S5105)<br/>피자 굽기 (S5099)<br/>노드의 거리 (S5102) | `박정호` `서형준` `오연진` `이승호` `임성준` `최유태` |
+| Week 04 <br>(22.08.27) | 버블 소트                  | `서형준` | 염라대왕의 이름 정렬 ([S7701](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWqU0zh6rssDFARG&))<br>커트라인 ([B25305](https://www.acmicpc.net/problem/25305))<br>국영수 ([B10825](https://www.acmicpc.net/problem/10825))<br>접미사 배열 ([B11656](https://www.acmicpc.net/problem/11656)) | `박정호` `서형준` `오연진` `이승호` `임성준` `최유태` |
+| Week 05 <br>(22.09.03) | DFS                        | `오연진` | 바이러스 ([B2606](https://www.acmicpc.net/problem/2606))<br>촌수계산 ([B2644](https://www.acmicpc.net/problem/2644)) <br>유기농 배추 ([B1012](https://www.acmicpc.net/problem/1012))<br>단지번호붙이기 ([B2667](https://www.acmicpc.net/problem/2667)) | `서형준` `오연진` `이승호` `임성준` `최유태`          |
+| Week 06<br>(22.09.10)  | BFS                        | `박정호` | DFS와 BFS ([B1260](https://www.acmicpc.net/problem/1260))<br/>맥주 마시면서 걸어가기 ([B9205](https://www.acmicpc.net/problem/9205))<br/>영역 구하기 ([B2583](https://www.acmicpc.net/problem/2583)) <br/>숨바꼭질 ([B6118](https://www.acmicpc.net/problem/6118)) | `박정호` `서형준` `오연진` `이승호` `임성준` `최유태` |
+| Week 07<br>(22.09.17)  | Stack                      | `최유태` | 스택 ([B10828](https://www.acmicpc.net/problem/10828))<br/>도어맨 ([B5002](https://www.acmicpc.net/problem/5002))<br/>단어뒤집기2 ([B17413](https://www.acmicpc.net/problem/17413))<br/>오큰수([B17298](https://www.acmicpc.net/problem/17298)) |                                                       |
