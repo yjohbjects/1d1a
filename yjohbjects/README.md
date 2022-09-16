@@ -7,6 +7,6 @@
 | week03 |Queue| ✅      |        |        |        | ✅     |
 | week04 |버블소트| ✅      | ✅      | ✅      | ✅      | ✅     |
 | week05 |DFS| ✅      |        | ✅      | ✅      | ✅     |
-| week06 |BFS|        |        |        |        |       |
-| week07 |Stack| ✅      |        | ✅      |        | ✅     |
+| week06 |BFS| ✅      |        |        |        |       |
+| week07 |Stack| ✅      | ✅      | ✅      |        | ✅     |
 
