@@ -11,6 +11,7 @@
 def permutation(n, picked, to_pick, elements):
     # 원하는 길이의 부분집합 picked를 만들었다면,
     # ans에 입력후 함수종료, 상위 함수로 복귀
+
     if to_pick == 0:
         # 이렇게 복사하지 않으면, 상위함수에서 pop 매서드로 인해 ans의 값도 pop됨
         result = picked[::]
