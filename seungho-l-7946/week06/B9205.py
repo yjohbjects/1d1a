@@ -31,10 +31,10 @@ sys.stdin = open('B9205.txt')
 dx = [1, 0]
 dy = [0, 1]
 
-def BFS(start, N):
+def BFS(start, size):
     queue = deque()
     queue.append(start)
-    stop_cnt = 0
+    visit[start_x][start_y] = 20
 
     while queue:
         x, y = queue.popleft()
@@ -43,44 +43,50 @@ def BFS(start, N):
             nx = x + dx[i]
             ny = y + dy[i]
 
-            if mat[nx][ny] == 1 and visit[nx][ny] == 0:
+            if nx >= size or ny >= size:
+                continue
+
+            if mat[nx][ny] == 3 and visit[nx][ny] == 0:
+                return 1
+
+            elif mat[nx][ny] == 2 and visit[nx][ny] == 0:
                 visit[nx][ny] = 20
-                stop_cnt += 1
-                if stop_cnt > N:
-                    return 1
-                else:
-                    queue.append((nx, ny))
+                queue.append((nx, ny))
 
             elif mat[nx][ny] == 0 and visit[nx][ny] == 0:
-                queue.append((nx, ny))
                 visit[nx][ny] = visit[x][y] - 1
-                if visit[nx][ny] == -1:
-                    return 0
+                if visit[nx][ny] > 0:
+                    queue.append((nx, ny))
+
+    return 0
 
 for _ in range(int(input())):
 
     # input
     N = int(input())
-    size = 50
+    size = 656
     mat = [[0] * size for _ in range(size)] # 32768 // 50
     visit = [[0] * size for _ in range(size)]
-    start_x = start_y = 0
+
     for i in range(N + 2):
         if i == 0:
             start_x, start_y = map(int, input().split())
             start_x //= 50
             start_y //= 50
             mat[start_x][start_y] = 1
+        elif i == (N + 1):
+            end_x, end_y = map(int, input().split())
+            end_x //= 50
+            end_y //= 50
+            mat[end_x][end_y] = 3
         else:
             x, y = map(int, input().split())
             x //= 50
             y //= 50
-            mat[x][y] = 1
-
-    visit[start_x][start_y] = 20
+            mat[x][y] = 2
 
     # output
-    result = BFS((start_x, start_y), N)
+    result = BFS((start_x, start_y), size)
     if result:
         print('happy')
     else:
