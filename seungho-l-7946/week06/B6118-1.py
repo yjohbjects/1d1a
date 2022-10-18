@@ -31,36 +31,26 @@ def BFS(start):
     queue = deque([start])
     visited[start] = 1
     while queue:
-        x = queue.popleft()
-        for idx in range(len(farm[x])):
-            if farm[x][idx] and not visited[idx]:
-                queue.append(idx)
-                visited[idx] = visited[x] + 1
+        v = queue.popleft()
+        for w in farm[v]:
+            if not visited[w]:
+                queue.append(w)
+                visited[w] = visited[v] + 1
 
 # input
-N, M = map(int, input().split())
-farm = [[0] * N for _ in range(N)]
+N, M = map(int, sys.stdin.readline().split())
+farm = [[] for _ in range(N + 1)]
+
 for _ in range(M):
-    x, y = map(int, input().split())
-    farm[x - 1][y - 1] = 1
-    farm[y - 1][x - 1] = 1
+    x, y = map(int, sys.stdin.readline().split())
+    farm[x].append(y)
+    farm[y].append(x)
 
 # visited
-visited = [0] * N
+visited = [0] * (N + 1)
 
 # BFS
-BFS(0)
-
-# 결과 도출
-result = []
-cnt = 0
-for v_idx in range(len(visited)):
-    if visited[v_idx] == max(visited):
-        cnt += 1
-        if cnt == 1:
-            result.append(v_idx + 1)
-            result.append(visited[v_idx] - 1)
-result.append(cnt)
+BFS(1)
 
 # output
-print(" ".join(str(r) for r in result))
+print(visited.index(max(visited)), max(visited) - 1, visited.count(max(visited)))
