@@ -25,18 +25,15 @@ from itertools import combinations_with_replacement
 N, M = map(int, input().split())
 tree = [1] * N
 
-# (N - 2)를 (N - M)개에 나누어서 박기
-# (N - 2)까지 수 중에서 (N - M)개 뽑기
-numbering = [x for x in range(1, N - 2)]
+# N - 2를 N - M개에 나누어서 박기
+numbering = [x for x in range(1, N)]
 case_all = list(combinations_with_replacement(numbering, N - M))
 
-# 합이 (N - 2)인 케이스 뽑기
 for case in case_all:
     if sum(case) == (N - 2):
         final_case = case
         break
 
-# 케이스에 맞춰서 수 더해주기
 for idx in range(len(final_case)):
     tree[idx + 1] += final_case[idx]
 
