@@ -1,4 +1,15 @@
 # 📍 1일 1알
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fyjohbjects%2F1d1a&count_bg=%23E1E1E1&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
+
+
+
+
+|          | 10yotae29                                                    | juggorr                                                      | seungho-l-7946                                               | sssungjooon                                                  | xguu9604                                                     | yjohbjects                                                   |
+| -------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| Language | <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"> | <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"> | <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"> | <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"> | <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"> | <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"> |
+| GitHub   | 11                                                           | 22                                                           | 33                                                           | 44                                                           | 55                                                           | 66                                                           |
+| BOJ      | [![Solved.ac프로필](http://mazassumnida.wtf/api/mini/generate_badge?boj=10yutae29)](https://solved.ac/10yutae29)                                                            | [![Solved.ac프로필](http://mazassumnida.wtf/api/mini/generate_badge?boj=juggorr)](https://solved.ac/juggorr)                                                            | [![Solved.ac프로필](http://mazassumnida.wtf/api/mini/generate_badge?boj=toyost123)](https://solved.ac/toyost123)                                                            | [![Solved.ac프로필](http://mazassumnida.wtf/api/mini/generate_badge?boj=dellojoon7)](https://solved.ac/dellojoon7)                                                            | [![Solved.ac프로필](http://mazassumnida.wtf/api/mini/generate_badge?boj=xguu)](https://solved.ac/xguu)                                                            | [![Solved.ac프로필](http://mazassumnida.wtf/api/mini/generate_badge?boj=yjohbjects)](https://solved.ac/yjohbjects)                                                            |
+
 
 ## 💥내용
 
