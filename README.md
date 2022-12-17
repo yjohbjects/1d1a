@@ -3,7 +3,6 @@
 
 <table>
   <tr>
-  	<th style="width:100px"></th>
     <th style="width:100px">10yutae29</th>
     <th style="width:100px">juggorr</th>
     <th style="width:100px">seungho-l-7946</th>
@@ -12,31 +11,12 @@
     <th style="width:100px">yjohbjects</th>
   </tr>
   <tr>
-    <td>Language</td>
-    <td><img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"></td>
-    <td><img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"></td>
-    <td><img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"></td>
-    <td><img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"></td>
-    <td><img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"></td>
-    <td><img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"></td>
-  </tr>
-  <tr>
-    <td>GitHub</td>
     <td><a href="https://github.com/10yutae29"><img src="https://github.com/10yutae29.png" width="100px" height="100px" style="border-radius:50%"></a></td>
     <td><a href="https://github.com/juggorr"><img src="https://github.com/juggorr.png" width="100px" height="100px" style="border-radius:50%"></a></td>
     <td><a href="https://github.com/seungho-l-7946"><img src="https://github.com/seungho-l-7946.png" width="100px" height="100px" style="border-radius:50%"></a></td>
     <td><a href="https://github.com/sssungjooon"><img src="https://github.com/sssungjooon.png" width="100px" height="100px" style="border-radius:50%"></a></td>
     <td><a href="https://github.com/xguu9604"><img src="https://github.com/xguu9604.png" width="100px" height="100px" style="border-radius:50%"></a></td>
     <td><a href="https://github.com/yjohbjects"><img src="https://github.com/yjohbjects.png" width="100px" height="100px" style="border-radius:50%"></a></td>
-  </tr>
-  <tr>
-    <td>BOJ</td>
-    <td><a href="https://solved.ac/10yutae29"><img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=10yutae29"></a></td>
-    <td><a href="https://solved.ac/juggorr"><img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=juggorr"></a></td>
-    <td><a href="https://solved.ac/toyost123"><img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=toyost123"></a></td>
-    <td><a href="https://solved.ac/dellojoon7"><img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=dellojoon7"></a></td>
-    <td><a href="https://solved.ac/xguu"><img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=xguu"></a></td>
-    <td><a href="https://solved.ac/yjohbjects"><img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=yjohbjects"></a></td>
   </tr>
 </table>
 
