@@ -33,7 +33,7 @@
 : 커밋은 주 1회 이상으로하고 아래의 commit message와 file name 서식을 따른다.
    - Commit Message
       - `[ADD]` + {파일 추가 내용}
-      - `[REMOVE]` + {파일 삭제 내용}
+      - `[DELETE]` + {파일 삭제 내용}
       - `[FIX]` + {파일 수정 내용}
       - `[REFACTOR]` + {파일 전면수정 내용}
       - 그 외: `[UPDATE]`, `[MOVE]`, `[RENAME]`, 등
