@@ -10,6 +10,7 @@ def solution(m, n, board):
     board = list(map(list,board))
     # 세로 단위를 쉽게 슬라이씽 하기 위해서 반시계 방향으로 90도 회전
     board = list(map(list, zip(*board)))[::-1]
+
     while True:
         # 각 열별 지워진 블록의 갯수를 저장할 딕셔너리
         dis_line = defaultdict(int)
@@ -57,3 +58,6 @@ def solution(m, n, board):
 
 
 print(solution(4,5,["CCBDE", "AAADE", "AAABF", "CCBBF"]))
+
+# ["-1-1BDE", "-1CADE", "CAABF", "CCBBF"]
+
