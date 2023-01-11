@@ -3,7 +3,7 @@ import sys
 sys.stdin = open('in.txt')
 
 # 상 좌 하 우
-deltas = [(0, -1), (-1, 0), (0, 1), (1, 0)]
+deltas = [(0, -1), (-1, 0), (1, 0), (0, 1)]
 
 def BFS(r, c):
     global baby_shark
@@ -45,8 +45,7 @@ def BFS(r, c):
                             baby_shark += 1
                             eaten = 0
 
-                        break
-    return
+                        return
 
 N = int(sys.stdin.readline())
 bowl = [list(map(int, sys.stdin.readline().split())) for _ in range(N)]
@@ -66,7 +65,6 @@ while edible:
                 small_fishes += 1
             if bowl[r][c] == 9:
                 sr, sc = r, c
-    print(sr, sc)
 
     # 반복문 종료조건
     if not small_fishes:
@@ -77,6 +75,5 @@ while edible:
         # visited 초기화 갈기고, bowl 상태 업데이트
         # eaten == baby_shark가 되면 baby_shark += 1해주고 eaten 초기화
         BFS(sr, sc)
-        # print(eaten)
 
-# print(timer)
+print(timer)
