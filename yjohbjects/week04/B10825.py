@@ -2,7 +2,7 @@ from pprint import pprint
 
 # B10824 국영수
 N = int(input())
-scores = list(list(map(str, input().split())) for _ in range(N))
+scores = list(list(map(str, input().split())) for _ in range(N)) # [이름, 국, 영, 수]
 alphabets = 'AaBbCcDdEeFfGgEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz'
 
 for i in range(N-1, 0, -1):
