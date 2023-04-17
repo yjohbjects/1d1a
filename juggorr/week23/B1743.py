@@ -26,8 +26,6 @@ def BFS(v):
     maap[v[0]][v[1]] = 2
 
     while Q:
-        # 반복문 밖의 v와 같은 이름으로 써도 될까?
-        # 문제없네용~
         v = Q.popleft()
 
         # 델타 이동
