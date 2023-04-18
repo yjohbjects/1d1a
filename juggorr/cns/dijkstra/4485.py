@@ -30,8 +30,10 @@ while True:
         for delta in deltas:
             ni, nj = v[0] + delta[0], v[1] + delta[1]
 
+            # 맵안에 있다면
             if (0 <= ni < N and 0 <= nj < N):
-
+                
+                # relaxation해주면서 힙큐에 넣어주기
                 if visited[ni][nj] > visited[v[0]][v[1]] + maap[ni][nj]:
                     visited[ni][nj] = visited[v[0]][v[1]] + maap[ni][nj]
                     heapq.heappush(Q, [maap[ni][nj], (ni, nj)])
