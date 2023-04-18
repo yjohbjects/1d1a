@@ -3,14 +3,11 @@ sys.stdin = open('in.txt')
 
 K, N = map(int, sys.stdin.readline().split())
 
-lines = []
+lines = [int(sys.stdin.readline()) for _ in range(K)]
 
-for _ in range(K):
-    lines.append(int(sys.stdin.readline()))
-
-max_len = sum(lines) // N
-min_len = max(lines) // N
-print(max_len, min_len)
+max_len = max(lines)
+min_len = 1
+# print(max_len, min_len)
 
 answer = 0
 
@@ -55,13 +52,13 @@ def bi_search(l, r):
 suspect = bi_search(min_len, max_len)
 
 while True:
-    print(suspect)
+    # print(suspect)
     counts = 0
 
     for line in lines:
         counts += line // suspect
 
-    print(counts)
+    # print(counts)
 
     if counts != N:
         break
