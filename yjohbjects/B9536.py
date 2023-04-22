@@ -16,4 +16,4 @@ for _ in range(tc):
 
         else:
             sound = list(animal.split(' '))[2]
-            answer = answer.replace('*' + sound + '*', '')
+            answer = answer.replace('*' + sound + '*', '') 
